@@ -19,8 +19,7 @@ header{
   width: 100%;
 }
 
-.header.container{
-}
+
 .container{
   margin: auto;
   width: 80%;
@@ -170,8 +169,7 @@ section{
   
 }
 
-.box.img{
-}
+
 
 .box.txt{
   padding-top: 40px;
@@ -212,7 +210,6 @@ section{
 
 .last a .download:hover{
   color:black ;
-  /* background-color:(white); */
 }
 /* /LAST SECTION CONTAINER */
 
@@ -220,22 +217,64 @@ section{
 /* FOOTER */
 
 footer{
-  background-color:rgb(49, 97, 224);
+  background-color:rgb(35, 39, 42);
   width: 100%;
 }
 
-footer{
-  padding-top: 50px
-}
-
 .footertop{
-  padding: 100px;
-  background-color: white;
+  border-bottom: 2px solid rgb(114, 137, 218);
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
-.footertop div{
-  width: 150px;
-  margin: 10px;
+.endpage{
+  margin-right: 100px;
+}
+.endpage h2{
+  color:rgb(114, 137, 218) ;
+}
+
+.endpage img{
+  margin-top: 10px;
+  padding-top: 10px;
+  width:20px ;
+  height: 20px;
+}
+.endpage span{
+  color: white;
+  font-size: 10px;
+}
+.endpage ul{
+  list-style: none;
+}
+
+.endpage ul li{
+  color: white;
+  padding-top: 5px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+/* TESTO VIOLA INFO */
+.infotitle{
+  font-weight: bold;
+  color:rgb(114, 137, 218) ;
+}
+/*/ TESTO VIOLA INFO */
+
+.info{
+  padding: 0 30px;
+  margin-right: 70px;
+}
+
+.info span{
+  font-size: 10px;
+}
+
+.infolink{
+  padding-top: 10px;
+  display: block;
+  color: white;
 }
 
 
