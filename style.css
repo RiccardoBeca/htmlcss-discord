@@ -19,7 +19,8 @@ header{
   width: 100%;
 }
 
-
+.header.container{
+}
 .container{
   margin: auto;
   width: 80%;
@@ -58,38 +59,83 @@ nav ul li a:hover{
   text-decoration: underline;
   color: blue;
 }
-
-
+/* SMALL BUTTON */
 .small.button{
+  font-size: 13px;
   border: none;
   color: black;
   background-color: white;
-  border-radius: 20px;
-  padding: 5px 10px;
+  border-radius: 30px;
+  padding: 10px 10px;
 }
-
 
 .small.button:hover{
   cursor: pointer;
   color:darkslateblue;
   background-color: lightgray;
 }
+/* /SMALL BUTTON */
 
 
 /* JUMBOTRON */
 .jumbotron{
-  position: relative;
-  height: 300px;
+  text-align: center;
   padding-top: 50px;
-  background-color: blue;
+  background-image: url(img/jumbo.png);
+  background-size: cover;
 }
 
 .text{
+  max-width: 1000px;
+  color: white;
   margin: 0 auto;
-  width: 300px;
-  padding: 100px;
-  background-color: grey;
+  padding: 150px;
 }
+
+.text h1{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.text p{
+  font-size: 1rem;
+  text-indent: center;
+}
+
+/* JUMBOTRON BUTTONS */
+
+.btn{
+  margin: 20px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.download{
+  background-color: white;
+  color: black;
+}
+
+.browser{
+  color: white;
+  background-color: black;
+}
+.browser:hover{
+  cursor: pointer;
+  color:darkslateblue;
+  background-color: gray;
+}
+
+.download:hover{
+  cursor: pointer;
+  color:darkslateblue;
+  background-color: lightgray;
+}
+/* /JUMBOTRON BUTTONS */
+
+
+
+
 
 /* SECTIONS*/
 
