@@ -149,13 +149,13 @@ section{
   background-color: white;
 }
 .even{
-  background-color: grey ;
+  background-color:rgb(246, 246, 246) ;
 }
 /* SECTION CONTAINER */
 .section.container{
+  max-width: 100%;
   margin: 0 auto;
   padding: 50px;
-  background-color: lightblue;
 }
 /*/ SECTION CONTAINER */
 
@@ -166,30 +166,54 @@ section{
 }
 
 .box{
-  padding: 30px;
-  width: 300px;
-  background-color: grey;
+  padding: 0 50px;
+  
 }
 
-.box.sx{
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-left: 200px;
+.box.img{
 }
-.box.dx{
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-left: 200px;
+
+.box.txt{
+  padding-top: 40px;
+  max-width: 300px;
 }
 /* /FLOATING BOX INSIDE "SECTION CONTAINER" */
+.box h2{
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
 
+.box p{
+  font-size: 15px;
+}
 
 /* LAST SECTION CONTAINER */
 
-.last{
-  margin-left:400px;
-  margin-top:10px;
+.last {
+  text-align: center;
+  /* margin-top:0px; */
 } 
+
+.last h3{
+  display: inline-block;
+  background-image: url(img/stars.svg);
+  background-size:cover ;
+  padding: 20px 15px;
+}
+
+.last a{
+  display: block;
+}
+
+.last a .download{
+  color: white;
+  background-color: rgb(142, 161, 225);
+}
+
+.last a .download:hover{
+  color:black ;
+  /* background-color:(white); */
+}
 /* /LAST SECTION CONTAINER */
 
 
