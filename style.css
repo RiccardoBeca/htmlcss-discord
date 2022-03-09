@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 .clearfix::after{
   content: "";
@@ -16,13 +19,62 @@ header{
   width: 100%;
 }
 
-.header.container{
-  height: 80px;
-}
+
 .container{
   margin: auto;
   width: 80%;
 }
+
+#logo{
+  float: left;
+  margin-top: 20px;
+  margin-right: 170px;
+}
+
+#login{
+  text-decoration: none;
+ float: right;
+ margin-top: 20px;
+} 
+
+
+/* NAV */
+nav{
+ list-style: none;
+}
+nav ul li{
+  margin-top: 25px;
+  display: inline-block;
+}
+
+nav ul li a{
+  font-size: 1rem;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+
+.small.button{
+  border: none;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+
+.small.button:hover{
+  cursor: pointer;
+  color:darkslateblue;
+  background-color: lightgray;
+}
+
 
 /* JUMBOTRON */
 .jumbotron{
@@ -33,11 +85,7 @@ header{
 }
 
 .text{
-  /* position: absolute;
-  top:50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-  margin: auto;
+  margin: 0 auto;
   width: 300px;
   padding: 100px;
   background-color: grey;
@@ -59,6 +107,7 @@ section{
 }
 /* SECTION CONTAINER */
 .section.container{
+  margin: 0 auto;
   padding: 50px;
   background-color: lightblue;
 }
@@ -71,7 +120,7 @@ section{
 }
 
 .box{
-  padding: 50px;
+  padding: 30px;
   width: 300px;
   background-color: grey;
 }
@@ -86,14 +135,16 @@ section{
   padding-bottom: 30px;
   margin-left: 200px;
 }
+/* /FLOATING BOX INSIDE "SECTION CONTAINER" */
+
 
 /* LAST SECTION CONTAINER */
-
 
 .last{
   margin-left:400px;
   margin-top:10px;
 } 
+/* /LAST SECTION CONTAINER */
 
 
 /* FOOTER */
@@ -103,17 +154,23 @@ footer{
   width: 100%;
 }
 
-.footer{
-  padding:50px;
-  /* height:600px */
+footer{
+  padding-top: 50px
 }
 
 .footertop{
-  margin-bottom: 30px;
-  padding: 300px;
+  padding: 100px;
   background-color: white;
 }
+
+.footertop div{
+  width: 150px;
+  margin: 10px;
+}
+
+
 .footerbottom{
+  margin-top: 30px;
   padding: 100px;
   background-color: white;
 }
